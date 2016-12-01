@@ -14,3 +14,6 @@ install-extlinux:
     - require:
       - file: /boot/extlinux/syslinux.cfg
       - pkg: extlinux
+    - onchanges:
+      - pkg: extlinux
+      - pkg: grub-pc
