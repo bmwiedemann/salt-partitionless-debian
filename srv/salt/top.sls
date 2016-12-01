@@ -3,3 +3,4 @@ base:
     - repo
     - bootloader
     - bashrc
+    - cleanupscript
